@@ -1,0 +1,24 @@
+{
+  "name": "object-properties-enumerability",
+  "version": "1.0.0",
+  "description": "ECMAScript 5 introduced a new mechanism for managing and configuring what can be done to an object's properties. New .defineProperty() and .defineProperties() methods were implemented. These methods let you control the behavior of each property.",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": [
+    "javascript",
+    "property descriptors",
+    "property access",
+    "property chain",
+    "enumerable",
+    "writable",
+    "configurable"
+  ]
+}
